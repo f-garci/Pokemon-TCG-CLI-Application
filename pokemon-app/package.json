@@ -1,0 +1,16 @@
+{
+    "name": "pokemon-app",
+    "version": "1.0.0",
+    "description": "An app that lets the user search for a Pokemon card within the Pokemon Trading Card API",
+    "main": "cli.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Fredi Garcia",
+    "license": "MIT",
+    "dependencies": {
+        "inquirer": "^8.0.0",
+        "pokemontcg": "file:../pokemontcg",
+        "yargs": "^16.2.0"
+    }
+}
